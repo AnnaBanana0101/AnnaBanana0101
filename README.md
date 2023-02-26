@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @AnnaBanana0101
 - 👀 I’m interested in science, history and technology.
-- 🌱 I’m currently learning python. 
+- 🌱 I'm pursuring B.Tech in Computer and Communication Engineering 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me: anika.shukla0101@gmail.com
 
