@@ -1,0 +1,18 @@
+This customised chatbot uses the OpenAI API for ChatGPT to create an interactive “Machine Learning Tutor”. The chatbot is programmed using Python and teaches the student through a combination of pre-defined and dynamic responses based on the student’s replies. 
+
+The ML Tutor chatbot has a set of topics we wish to teach as part of the course (In this case, they are topics related to Machine Learning). This includes the type of interactive questions to be asked to lead the conversation and, more importantly, to check the student’s knowledge before moving on to the next topic. The flow of the course is as follows:
+
+The tutor teaches a topic.
+It prompts the student to indicate if they have understood the topic
+If not, the matter is explained again (as many times as it takes for the student to understand)
+It then checks the student’s knowledge by asking a test question. Based on the correctness of the answer, the tutor moves on to the next topic or repeats the current topic and the whole process. 
+The correctness is verified by the chatGPT response to the prompt “Is this correct” and similarity to the subject info.
+
+The chatbot uses the dynamic, interactive nature of chatGPT to engage the student. It also employs the vast knowledge base of ChatGPT to provide efficient, up-to-date information to the students. 
+
+However, it only leaves some things up to chatGPT. The course is guided through a set of pre-defined topics which set its direction. The explanations and information are based on these topics and prompts. 
+
+The feedback mechanism allows the student to stay on a particular topic for as long as it takes them to understand it. Since the bot produces a variation of the explanation each time it is prompted (by the student) to repeat, the scope of understanding is more. 
+
+The checking mechanism allows the tutor only to move forward if the student produces the correct response. This process is dynamic since it relies on the knowledge base of chatGPT to judge whether the answer is correct. It also checks for similarities to the information produced by the tutor to create a foolproof checking system. 
+
